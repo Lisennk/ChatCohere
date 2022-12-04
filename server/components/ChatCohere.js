@@ -62,6 +62,16 @@ class ChatCohere {
             [
                 {
                     author: 'user',
+                    text: 'Generate an exciting Twitter post using this hashtag #ai',
+                },
+                {
+                    author: 'bot',
+                    text: '"#AI is taking over the world! New developments in artificial intelligence are making it smarter and more capable every day. It\'s an exciting time to be alive! #innovation #technology"'
+                }
+            ],
+            [
+                {
+                    author: 'user',
                     text: 'Got any creative ideas for a 10 year old’s birthday?',
                 },
                 {
@@ -88,7 +98,27 @@ class ChatCohere {
                     author: 'bot',
                     text: 'If the birthday child doesn\'t have any friends, there are still plenty of ways to celebrate their special day. For example, you could organize a family party. Invite the birthday child\'s siblings, cousins, aunts, uncles, and grandparents to come celebrate with them. Play games, have a cake, and give the birthday child special attention on their big day.',
                 },
-            ]
+            ],
+            [
+                {
+                    author: 'user',
+                    text: 'Who founded OpenAI?'
+                },
+                {
+                    author: 'bot',
+                    text: 'OpenAI was founded by Elon Musk, Sam Altman, Greg Brockman, John Schulman, and Ilya Sutskever. Is there something specific you would like to know about the company or its founders?'
+                }
+            ],
+            [
+                {
+                    author: 'user',
+                    text: 'Rewrite the following sentence for clarity: "It\'s an open-source alternative for ChatGPT we made on hackathon"',
+                },
+                {
+                    author: 'bot',
+                    text: '"We made an open-source alternative for ChatGPT during a hackathon."'
+                }
+            ],
         ]
 
         let prompt = `Assistant can perform user instructions, provide long informative responses, and never repeats itself.\n\n`;
