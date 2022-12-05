@@ -131,7 +131,7 @@ export default {
           "Fix grammar and rewrite the following sentence for clarity"
         </div>
         <div class="example">
-          "Who founded OpenAI?"
+          "Who founded OpenAI and when?"
         </div>
         <div class="example">
           "Generate an exciting Twitter post using this hashtag"
